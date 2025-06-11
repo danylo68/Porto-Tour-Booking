@@ -1,3 +1,4 @@
+
 # Porto-Tour-Booking
 
 Ce projet est une application de réservation de tours à Porto, construite avec Vue 3 + Vite.
@@ -24,3 +25,6 @@ TypeScript ne gère pas par défaut les types des fichiers `.vue`, donc on utili
 
 ```bash
 npm install
+
+# Porto-Tour-Booking
+
