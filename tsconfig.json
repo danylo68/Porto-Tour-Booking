@@ -5,10 +5,16 @@
     "strict": true,
     "jsx": "preserve",
     "baseUrl": ".",
+    "target": "ES2017",
+    "module": "ESNext",
     "paths": {
       "@/*": ["src/*"]
     }
   },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
-  // "exclude": ["node_modules"]
+  "exclude": ["node_modules", "dist"]
 }
+
+
+
+
