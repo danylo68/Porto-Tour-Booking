@@ -41,7 +41,7 @@ const zoomImage = (src: string) => {
 }
 
 const logeas = {
-  title: 'Appartement 1 pour cinq personnes',
+  title: 'Appartement "1" pour quatres personnes',
   description: 'L appartement 1 est au premier niveau : un appartement avec terrasse de 30 m², deux chambres, une salle d’eau avec douche, lavabo et WC.',
   prix: '400,00 euros la semaine',
 }
@@ -49,44 +49,51 @@ const logeas = {
 const products = [
   {
     id: 1,
-    name: 'Anta / Appt 1 Terrasse',
+    name: 'Appt 1 Terrasse',
     href: '#',
-    imageSrc: '/images/terasseanta.jpg',
+    imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802749/terasseanta_njlfdr.jpg',
     imageAlt: 'Terrasse Anta',
   },
   {
     id: 2,
-    name: 'Anta / Appt 1 Terrasse',
+    name: 'Appt 1 Terrasse',
     href: '#',
-    imageSrc: '/images/anta1.jpg',
+    imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/a_vflip/v1749802726/anta1_zcp9bz.jpg',
     imageAlt: 'Vue salon',
   },
   {
-    id: 6,
+    id: 3,
     name: 'Terrasse table',
     href: '#',
-    imageSrc: '/images/terassetable.jpg',
+    imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802753/terassetable_plyiha.jpg',
     imageAlt: 'Table sur terrasse',
   },
   {
-    id: 3,
-    name: 'Anta / Appt 1 Salon',
+      id: 2,
+      name: 'Cuisine aménagée.',
+      href: '#',
+      imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749822828/cuisado_vfxwo7.jpg',
+      imageAlt: 'Cuisine aménagée et Bar.',
+    },
+  {
+    id: 4,
+    name: 'Appt 1 Salon',
     href: '#',
-    imageSrc: '/images/anta2.jpg',
+    imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802748/salon1_xh5hio.jpg',
     imageAlt: 'Appt 1 Salon',
   },
   {
-    id: 4,
+    id: 5,
     name: 'Salon clair et spacieux',
     href: '#',
-    imageSrc: '/images/salon1.jpg',
+    imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/a_180/v1749802726/anta2_qtnygp.jpg',
     imageAlt: 'Salon clair et spacieux',
   },
   {
-    id: 5,
+    id: 6,
     name: 'Salle de bains moderne',
     href: '#',
-    imageSrc: '/images/banosloge1.jpg',
+    imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/a_180/v1749802728/banosgr1_hmf7vi.jpg',
     imageAlt: 'Salle de bains moderne',
   },
  
@@ -94,15 +101,23 @@ const products = [
     id: 7,
     name: 'Chambre 1 avec lit double',
     href: '#',
-    imageSrc: '/images/chambre1.jpg',
+    imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802731/chambre2_xncvz2.jpg',
     imageAlt: 'Chambre 1 avec lit double',
   },
   {
     id: 8,
     name: 'Chambre 2 avec lit double',
     href: '#',
-    imageSrc: '/images/chambre2.jpg',
+    imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802731/chambre1_qont9e.jpg',
     imageAlt: 'Chambre 2 avec lit double',
+  
+  },
+  {
+    id: 8,
+    name: 'Jardin autour de la maison',
+    href: '#',
+    imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749827102/jardim_hmekf2.jpg',
+    imageAlt: 'Jardin autour de la maison',
   
   },
 ]

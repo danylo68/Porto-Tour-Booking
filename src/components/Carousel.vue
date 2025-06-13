@@ -50,26 +50,23 @@
   import { ref } from 'vue'
   
   const images = [
-    '/images/algarve1.jpg',
-    '/images/fatima.jpg',
-    '/images/portojardin.jpg',
-    '/images/porto1.jpg',
-    '/images/porto2.jpg',
-    '/images/porto4.jpg',
-    '/images/espinho2.jpg',
-    '/images/costanova.jpg',
-    '/images/arouca.jpg',
-    '/images/espinhobeach1.jpg',
-    '/images/gardenporto.jpg',
-    '/images/beach1.jpg',
-    '/images/benagil3.gif',
-    '/images/ponteeifel.jpg',
-    '/images/granja.jpg',
-    '/images/espinhobeach3.jpg',
-    '/images/algarve3.jpg',
-    '/images/rainha.jpg',
-    '/images/praya.jpg',
-    '/images/jardimPorto.jpg',
+  'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802753/zebreros_qfeov2.jpg',
+  'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802748/rainha_zljas3.jpg',
+  'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802743/portodouro1_uv8ikc.jpg',
+  'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802742/jardimPorto_q4b9au.jpg',
+ 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802737/gardenporto_vkj8ho.jpg',
+  'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802732/eifel2_izinab.jpg',
+  'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802732/costanova_t3fxbz.jpg',
+ 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802728/benagil1_z58ioo.jpg',
+  'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802727/arouca_ez5zbc.jpg',
+  'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802726/algarve3_s849kd.jpg',
+  'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802726/algarve1_dzxpug.jpg',
+  'https://res.cloudinary.com/dp17akqzu/image/upload/v1749821941/emanuel-haas-CBRAZqV1OLI-unsplash_cedslc.jpg',
+  'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802742/porto4_bd7aor.jpg',
+  'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802737/fatima_ltj5cj.jpg',
+  'https://res.cloudinary.com/dp17akqzu/image/upload/a_180/v1749802727/arouca_ez5zbc.jpg',
+  'https://res.cloudinary.com/dp17akqzu/image/upload/a_90/v1749802737/fatima1_eu3mu7.jpg',
+    
   ]
   
   const currentIndex = ref(0)

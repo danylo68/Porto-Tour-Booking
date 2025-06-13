@@ -37,7 +37,7 @@ const zoomImage = (src: string) => {
 }
   
   const logeas = 
-    { title: "Appartement 2 pour trois couchage ", description: 'La loge 2 est au rez de chausssé est un apartement doté de d/une chambres,d/une salle d/eau avec douche, lavabo et WC',prix :"350,00 euros la semaine"
+    { title: "Appartement 2 pour deux personnes ", description: 'La loge 2 est au rez de chausssé est un apartement doté de d/une chambres,d/une salle d/eau avec douche, lavabo et WC',prix :"350,00 euros la semaine"
     } 
     
   
@@ -47,61 +47,61 @@ const zoomImage = (src: string) => {
   const products = [
       
     {
-      id: 8,
-      name: 'Anta/ Appt 0 level',
+      id: 1,
+      name: 'Cuisine aménagée et Bar.',
       href: '#',
-      imageSrc: '/images/antagr1.jpg',
-      imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+      imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802732/cuisadogr0_ozl27a.jpg',
+      imageAlt: 'Cuisine aménagée et Bar.',
     },
     {
-      id: 10,
-      name: 'Earthen Bottle',
+      id: 2,
+      name: 'Cuisine aménagée et Bar.',
       href: '#',
-      imageSrc: '/images/antagr4.jpg',
-      imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
-    },
-    {
-      id: 9,
-      name: 'Nomad Tumbler',
-      href: '#',
-      imageSrc:'/images/salon02.jpg',
-      imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
-    },
-    {
-      id: 12,
-      name: 'Nomad Tumbler',
-      href: '#',
-      imageSrc:'/images/salongr1.jpg',
-      imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
-    },
-    
-    {
-      id: 11,
-      name: 'Earthen Bottle',
-      href: '#',
-      imageSrc: '/images/antagr3.jpg',
-      imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
-    },
-    {
-      id: 12,
-      name: 'Nomad Tumbler',
-      href: '#',
-      imageSrc:'/images/antagr5.jpg',
-      imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+      imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802727/antagr4_nwipxy.jpg',
+      imageAlt: 'Cuisine aménagée et Bar.',
     },
    
     {
-      id: 12,
-      name: 'Nomad Tumbler',
+      id: 3,
+      name: 'Espace à vivre.',
       href: '#',
-      imageSrc:'/images/banosgr0.jpg',
-      imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+      imageSrc:'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802748/salon02_hgdr7z.jpg',
+      imageAlt: 'Espace à vivre.',
     },
     {
-      id: 12,
-      name: 'Nomad Tumbler',
+      id: 4,
+      name: 'Salon',
       href: '#',
-      imageSrc:'/images/banosgr01.jpg',
+      imageSrc:'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802748/salongr1_lwrd9e.jpg',
+      imageAlt: 'Salon.',
+    },
+    
+    {
+      id: 5,
+      name: 'Une chambre vue 1',
+      href: '#',
+      imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802727/antagr3_jyzfd3.jpg',
+      imageAlt: 'La chambre vue 1.',
+    },
+    {
+      id: 6,
+      name: 'Une chambre vue 2',
+      href: '#',
+      imageSrc:'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802727/antagr5_gdu54m.jpg',
+      imageAlt: 'La chambre vue 2.',
+    },
+    {
+      id: 7,
+      name: 'Lavabo et toilette',
+      href: '#',
+      imageSrc:'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802727/banosgr0_z6aqmw.jpg',
+      imageAlt: 'Douche et wc.',
+    },
+    {
+      id: 8,
+      name: 'Douche et wc.',
+      href: '#',
+      imageSrc:'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802728/banosgr01_urp7ou.jpg',
       imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
     },
   ]
