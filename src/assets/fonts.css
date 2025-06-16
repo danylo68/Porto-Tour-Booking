@@ -8,20 +8,4 @@
     font-display: swap; /* Évite le FOIT */
   }
   
-  @font-face {
-    font-family: 'Aileron';
-    src: url('/fonts/Aileron-Bold.woff2') format('woff2'),
-         url('/fonts/Aileron-Bold.woff') format('woff');
-    font-weight: 700; /* Bold */
-    font-style: normal;
-    font-display: swap;
-  }
   
-  @font-face {
-    font-family: 'Aileron';
-    src: url('/fonts/Aileron-Italic.woff2') format('woff2'),
-         url('/fonts/Aileron-Italic.woff') format('woff');
-    font-weight: 400; /* Normal */
-    font-style: italic;
-    font-display: swap;
-  }
