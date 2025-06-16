@@ -14,7 +14,12 @@
             <div class="bg-white rounded-xl shadow-md overflow-hidden border border-gray-100">
               <img :src="product.imageSrc" :alt="product.imageAlt" class="w-full h-64 object-cover" />
               <div class="p-4 space-y-1">
+              
                 <h3 class="font-medium font-mono text-gray-800">{{ product.name }}</h3>
+                <p class="text-gray-800 font-mono font-bold px-4 pb-6 flex items-center">
+  <span class="mr-1">📍</span>
+  {{ product.Localisation }}
+</p>
               
               </div>
             </div>
@@ -49,102 +54,133 @@
   const products = [
     {
       id: 1,
-      name: 'Le jardin de la terrasse.',
+      name: 'Plage Baia d Espinho',
       href: '#',
       imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802742/plageespinho_qhwlv3.jpg',
-      imageAlt: 'jardin Anta',
+      imageAlt: 'Plage Baia d Espinho',
+      Localisation: 'Espinho',
     },
     {
       id: 2,
-      name: 'Le centre ville',
+      name: 'Le centre ville rue 19',
       href: '#',
       imageSrc:  'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802733/rua19_tpmuic.jpg',
       imageAlt: 'rua 19',
+      Localisation: 'Espinho',
     },
     {
       id: 3,
-      name: 'plage Espinho.',
+      name: 'Praia do Marbelo.',
       href: '#',
       imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802733/praia2_mhk3ft.gif', 
-      imageAlt: 'plage Espinho',
+      imageAlt: 'Praia do Marbelo d Espinho',
+      Localisation: 'Espinho',
     },
     {
       id: 4,
-      name: 'plage Espinho.',
+      name: 'Praia do Marbelo.',
       href: '#',
       imageSrc:  'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802733/espinhobeach3_cjv41u.jpg', 
       imageAlt: 'plage Espinho2',
+      Localisation: 'Espinho',
     },
     {
-      id: 4,
+      id: 5,
       name: 'casino d Espinho.',
       href: '#',
       imageSrc:  'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802733/casino_espinho_nlktql.png',
       imageAlt: 'casino_espinho',
+      Localisation: 'Espinho',
     },
     {
-      id: 4,
-      name: 'Allée bord de Mer.',
+      id: 6,
+      name: 'Allée caillebotis Praia de Brito.',
       href: '#',
       imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802733/granjavia_mt6f5f.jpg',
       imageAlt: 'Chemin bois',
+      Localisation: 'Espinho',
     },
     {
-      id: 4,
-      name: 'Marché d Espinho.',
+      id: 7,
+      name: 'Marché d Espinho chaque Lundi.',
       href: '#',
       imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802733/espinho-market_oykhj8.jpg',
       imageAlt: 'Marché d Espinho',
+      Localisation: 'Espinho',
     },
     {
-      id: 4,
-      name: 'Supermarché à proximité.',
+      id: 8,
+      name: 'Supermarché à proximité Mercadona.',
       href: '#',
       imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802742/mercadona_jx1ife.webp',
       imageAlt: 'mercadona',
+      Localisation: 'Anta',
     },
     {
-      id: 4,
-      name: 'Plage de Baia Espinho.',
+      id: 9,
+      name: 'Bord de mer Plage Baia d Espinho.',
       href: '#',
       imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802736/espinhobeach_vr32fs.jpg',
       imageAlt: 'Plage de Baia',
+      Localisation: 'Espinho',
     },
     {
-      id: 4,
-      name: 'La Gare d Espinho',
+      id: 10,
+      name: 'La Gare d Espinho qui dessert Porto',
       href: '#',
       imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749826668/gare_clnyaq.jpg',
-      imageAlt: 'Plage de Baia',
+      imageAlt: 'La Gare d Espinho ',
+      Localisation: 'Espinho',
     },
     {
-      id: 4,
-      name: 'Plage de Baia Espinho.',
+      id: 11,
+      name: 'Capela do Senhor da Pedra',
       href: '#',
-      imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802736/espinho2_qavudl.jpg',
-      imageAlt: 'Plage de Baia',
+      imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1750076919/Capela-do-Senhor-da-Pedra_buk69n.jpg',
+      imageAlt: 'Capela do Senhor da Pedra',
+        Localisation: 'Granja',
     },
     {
-      id: 4,
+      id: 12,
       name: 'Plage de Baia Espinho.',
       href: '#',
       imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802728/beachboat_b9qltt.jpg',
       imageAlt: 'Plage de Baia',
+      Localisation: 'Espinho',
     },
     {
-      id: 4,
-      name: 'Plage de Granja.',
+      id: 13,
+      name: 'Praia de Brito.',
       href: '#',
       imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802737/granja_iyh3dn.jpg',
-      imageAlt: 'Plage de Granja',
+      imageAlt: 'Praia de Brito',
+      Localisation: 'Espinho',
     },
   
     {
-      id: 4,
+      id: 14,
       name: 'Plage de Baia Espinho.',
       href: '#',
       imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1749802736/espinhobeach1_opszwk.jpg',
       imageAlt: 'Plage de Baia',
+      Localisation: 'Espinho',
+    },
+   
+    {
+      id: 15,
+      name: 'Piscine Baia Espinho.',
+      href: '#',
+      imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1750076924/marcio-pego-_1AZbqyrhRU-unsplash_zikncv.jpg',
+      imageAlt: 'Piscine',
+      Localisation: 'Espinho',
+    },
+    {
+      id: 16,
+      name: 'Le Surf à Espinho.',
+      href: '#',
+      imageSrc: 'https://res.cloudinary.com/dp17akqzu/image/upload/v1750076922/EspinhoSurf_tssdzv.jpg',
+      imageAlt: 'Surf Espinho.',
+      Localisation: 'Espinho',
     },
   ]
   </script>
