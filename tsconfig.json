@@ -1,20 +1,28 @@
 {
   "compilerOptions": {
-    "types": ["vite/client"],
-    "moduleResolution": "node",
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "bundler",  // Changé depuis "node"
     "strict": true,
     "jsx": "preserve",
     "baseUrl": ".",
-    "target": "ES2017",
-    "module": "ESNext",
     "paths": {
       "@/*": ["src/*"]
-    }
+    },
+    "types": ["vite/client"],
+    "skipLibCheck": true,  // Nouvelle option importante
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
-  "exclude": ["node_modules", "dist"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.d.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "**/*.spec.ts"  // Exclure les fichiers de test
+  ]
 }
-
-
-
-
