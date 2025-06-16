@@ -1,6 +1,7 @@
 import './assets/main.css';
 import '@/assets/fonts.css';
-import 'flowbite';
+import '@/tailwind.css'
+
 import { createApp } from 'vue';
 import { createPinia } from 'pinia';
 import App from './App.vue';
