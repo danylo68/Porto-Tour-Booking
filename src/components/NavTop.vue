@@ -69,7 +69,7 @@
           <router-link to="/destinations" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700">
             Destinations
           </router-link>
-          <a href="mailto:contact@vacancesespinho.com" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700">
+          <a href="mailto:mailto:lopa.daniel@mail.com, nanda.lopa@gmail.com" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700">
       Contact
     </a>
         </div>
