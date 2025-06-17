@@ -16,11 +16,12 @@ import MainSectionHead from "./components/MainSectionHead.vue";
     <header>
       <HeaderSection />
     </header>
-<MainSectionHead />
+
     <!-- Contenu principal -->
     <main class="flex-1">
       <MainSection />
       <MainSection2 />
+      <MainSectionHead />
       <!-- <RouterView /> -->
     </main>
     <Carousel />
