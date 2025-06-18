@@ -4,7 +4,7 @@ const zoomImage = (src) => {
     zoomedImage.value = src;
 };
 const logeas = {
-    title: 'Appartement "1" pour quatres personnes',
+    title: 'Appartement "Videira" pour quatres personnes',
     description: 'L appartement 1 est au premier niveau : un appartement avec terrasse de 30 m², deux chambres, une salle d’eau avec douche, lavabo et WC.',
     prix: '400,00 euros la semaine',
 };

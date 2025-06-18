@@ -2,7 +2,7 @@
 
 
  <template>
-  <div class="bg-white min-h-[70vh] py-8">
+  <div id="location" class="bg-white min-h-[70vh] py-8">
     <div class="w-full px-4 mx-auto max-w-7xl">
     
       <h2 class="text-2xl font-mono font-bold text-gray-800 px-4 pb-6 ">{{ logeas.title }}</h2>
@@ -41,8 +41,8 @@ const zoomImage = (src: string) => {
 }
 
 const logeas = {
-  title: 'Appartement "1" pour quatres personnes',
-  description: 'L appartement 1 est au premier niveau : un appartement avec terrasse de 30 m², deux chambres, une salle d’eau avec douche, lavabo et WC.',
+  title: 'Appartement "Casa da Videira" pour quatres personnes',
+  description: 'Situé au premier étage, cet appartement lumineux offre une agréable terrasse de 30 m² idéale pour vos moments de détente. Il comprend deux chambres confortables, ainsi qu une salle d eau moderne équipée d une douche, d un lavabo et de WC.',
   prix: '400,00 euros la semaine',
 }
 

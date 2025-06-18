@@ -4,26 +4,26 @@
       <div class="flex justify-between items-center h-16">
         <!-- Logo -->
         <div class="flex-shrink-0 flex items-center">
-          <router-link to="/" class="flex items-center space-x-2">
+          <a href="/" class="flex items-center space-x-2" @click.prevent="scrollToTop">
             <svg class="h-8 w-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
             </svg>
             <span class="text-xl font-bold">Vacances Espinho</span>
-          </router-link>
+          </a>
         </div>
 
         <!-- Menu principal (desktop) -->
         <div class="hidden md:block">
           <div class="ml-10 flex items-center space-x-4">
-            <router-link to="/locations" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition">
+            <a href="#locations" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition" @click.prevent="scrollTo('locations')">
               Locations
-            </router-link>
-            <router-link to="/destinations" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700">
-            Destinations
-          </router-link>
-          <a href="mailto:lopa.daniel@mail.com, nanda.lopa@gmail.com" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700">Contact</a>
-              
-          
+            </a>
+            <a href="#destinations" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition" @click.prevent="scrollTo('destinations')">
+              Destinations
+            </a>
+            <a href="#contact" class="px-3 py-2 rounded-md text-sm font-medium hover:bg-blue-700 transition" @click.prevent="scrollTo('contact')">
+              Contact
+            </a>
           </div>
         </div>
 
@@ -63,15 +63,15 @@
       <!-- Menu mobile -->
       <div class="md:hidden" :class="isOpen ? 'block' : 'hidden'" id="mobile-menu">
         <div class="px-2 pt-2 pb-3 space-y-1">
-          <router-link to="/locations" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700">
+          <a href="#locations" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700" @click.prevent="scrollTo('locations'); isOpen = false">
             Locations
-          </router-link>
-          <router-link to="/destinations" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700">
+          </a>
+          <a href="#destinations" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700" @click.prevent="scrollTo('destinations'); isOpen = false">
             Destinations
-          </router-link>
-          <a href="mailto:mailto:lopa.daniel@mail.com, nanda.lopa@gmail.com" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700">
-      Contact
-    </a>
+          </a>
+          <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium hover:bg-blue-700" @click.prevent="scrollTo('contact'); isOpen = false">
+            Contact
+          </a>
         </div>
       </div>
     </div>
@@ -82,4 +82,32 @@
 import { ref } from 'vue';
 
 const isOpen = ref(false);
+
+const scrollTo = (id: string) => {
+  const element = document.getElementById(id);
+  if (element) {
+    element.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    });
+    
+    // Mise à jour de l'URL sans rechargement
+    history.pushState(null, '', `#${id}`);
+  }
+};
+
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
+  history.pushState(null, '', '/');
+};
 </script>
+
+<style>
+/* Optionnel : pour un défilement plus doux sur toute la page */
+html {
+  scroll-behavior: smooth;
+}
+</style>

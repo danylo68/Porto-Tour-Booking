@@ -37,11 +37,11 @@ const zoomImage = (src: string) => {
 }
   
   const logeas = 
-    { title: "Appartement 2 pour deux personnes ", description: 'La loge 2 est au rez de chausssé est un apartement doté de d/une chambres,d/une salle d/eau avec douche, lavabo et WC',prix :"350,00 euros la semaine"
+    { title: "Appartement 'Casa do Sol' rez-de-chaussée pour deux personnes",
+    description:"Profitez d’un appartement cosy et fonctionnel situé en rez-de-chaussée, idéal pour une escapade en solo ou en couple. Il dispose d’une chambre confortable et d’une salle d’eau moderne avec douche, lavabo et WC. Parfait pour un séjour agréable dans un cadre paisible.",
+    prix :"350,00 euros la semaine"
     } 
     
-  
-  
   
   
   const products = [
