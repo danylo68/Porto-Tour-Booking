@@ -43,7 +43,7 @@ const zoomImage = (src: string) => {
 const logeas = {
   title: 'Appartement "Casa da Videira" pour quatres personnes',
   description: 'Situé au premier étage, cet appartement lumineux offre une agréable terrasse de 30 m² idéale pour vos moments de détente. Il comprend deux chambres confortables, ainsi qu une salle d eau moderne équipée d une douche, d un lavabo et de WC.',
-  prix: '400,00 euros la semaine',
+  prix: 'Prix: 400,00 euros la semaine',
 }
 
 const products = [

@@ -47,7 +47,7 @@
   
   const logeas = {
     Presentation: ' A propos d Espinho,',
-    description: 'Espinho, située sur la côte atlantique à proximité de Porto, trouve ses origines dans une communauté de pêcheurs attirée par la richesse de ses eaux. Aujourd hui, la ville est réputée pour ses superbes plages, son célèbre casino, ses spots de surf et ses terrains de beach-volley. La maison se niche dans une ruelle paisible, à seulement 1,5 km du littoral, offrant ainsi un cadre idéal pour profiter du calme tout en restant à deux pas des plages animées et de toutes les activités de la station balnéaire.',
+    description: 'Espinho, située sur la côte atlantique à proximité de Porto, trouve ses origines dans une communauté de pêcheurs attirée par la richesse de ses eaux. Aujourd hui, la ville est réputée pour ses superbes plages, son célèbre casino, ses spots de surf et ses terrains de beach-volley. La maison se niche dans une ruelle paisible, à seulement 1,5 km du littoral, offrant ainsi un cadre idéal pour profiter du calme.',
     Localisation: 'Espinho est à 20 minutes du centre de Porto en train.',
   }
   

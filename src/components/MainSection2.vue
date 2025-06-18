@@ -39,7 +39,7 @@ const zoomImage = (src: string) => {
   const logeas = 
     { title: "Appartement 'Casa do Sol' rez-de-chaussée pour deux personnes",
     description:"Profitez d’un appartement cosy et fonctionnel situé en rez-de-chaussée, idéal pour une escapade en solo ou en couple. Il dispose d’une chambre confortable et d’une salle d’eau moderne avec douche, lavabo et WC. Parfait pour un séjour agréable dans un cadre paisible.",
-    prix :"350,00 euros la semaine"
+    prix :"Prix: 350,00 euros la semaine."
     } 
     
   
